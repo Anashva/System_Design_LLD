@@ -7,6 +7,7 @@ public class PayPalAdaptor implements Payment{
     }
 
     public void pay(double amount){
+
         paypal.makepayment(amount);
     }
 }
