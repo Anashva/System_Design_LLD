@@ -8,6 +8,7 @@ public class Channel implements YoutubeChannel{
 
     @Override
     public void subscribe(Subscriber subscriber) {
+
         subscribers.add(subscriber);
     }
 
